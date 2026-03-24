@@ -46,22 +46,22 @@ const Header = () => {
             <img src={assets.star_icon} alt="" />
         </motion.div>
 
-        < motion.h1 className='text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center'>Turn text to 
-        <span className='text-blue-600'
+        < motion.h1 className='text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center leading-tight sm:leading-none'>Turn text to 
+        <motion.span className='text-blue-600'
         initial={{ opacity: 0}}
         animate={{ opacity: 1}}
         transition={{ delay: 0.4, duration: 2 }}
 
-        >image</span>, in seconds.</motion.h1>
+        > image</motion.span>, in seconds.</motion.h1>
 
 
-        <motion.p className='text-center max-w-xl mx-auto mt-5'
+        <motion.p className='text-center max-w-xl mx-auto mt-5 px-4 text-sm sm:text-base'
         initial={{ opacity: 0.2, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.8 }}
-        >Unlesh your creativity with AI. Turn your imagination into visual art in seconds - just type , and watch the magic happen.</motion.p>
+        >Unleash your creativity with AI. Turn your imagination into visual art in seconds - just type, and watch the magic happen.</motion.p>
 
-        <motion.button  onClick={onClickHandler} className='sm:text-lg text-white bg-black w-auto mt-8 px-12 py-2.5 flex items-center gap-2 rounded-full'
+        <motion.button  onClick={onClickHandler} className='text-sm sm:text-lg text-white bg-black w-auto mt-8 px-8 sm:px-12 py-2.5 flex items-center gap-2 rounded-full'
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0 }}

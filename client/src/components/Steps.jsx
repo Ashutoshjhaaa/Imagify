@@ -16,13 +16,13 @@ const Steps = () => {
 
         <p className='text-lg text-gray-600 mb-8'>Transform Words Into Stunning Images</p>
 
-        <div className='space-y-4 w-full max-w-3xl text-sm'>
+        <div className='flex flex-col gap-4 w-full max-w-3xl text-sm'>
             {stepsData.map((item, index) => (
-                <div key={index} className='flex items-center gap-4 bg-white border px-8 py-5 rounded-lg shadow-md hover:scale-1.02 transition-all duration-300'>
-                    <img src={item.icon} alt="" width={40} />
+                <div key={index} className='flex items-center gap-4 bg-white border px-5 sm:px-8 py-4 sm:py-5 rounded-lg shadow-md hover:scale-[1.02] transition-all duration-300'>
+                    <img src={item.icon} alt="" className='w-10 sm:w-12' />
                     <div>
-                        <h2 className='text-xl font-medium'>{item.title}</h2>
-                        <p className='text-gray-500'>{item.description}</p>
+                        <h2 className='text-lg sm:text-xl font-medium'>{item.title}</h2>
+                        <p className='text-gray-500 text-xs sm:text-base'>{item.description}</p>
                     </div>
                 </div>
             ))}
