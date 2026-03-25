@@ -33,6 +33,7 @@ Thumbs.db
 *.swo
 
 # Project specific
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# Note: Keep lock files if you want to ensure consistent dependency versions across environments
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
