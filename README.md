@@ -1,5 +1,7 @@
 # Imagify - AI Image Generator
 
+[![Github Repo](https://img.shields.io/badge/Github-Repository-blue?logo=github)](https://github.com/Ashutoshjhaaa/Imagify)
+
 Imagify is a full-stack AI-powered image generation platform where users can transform text descriptions into stunning visual art. Built with the MERN stack (MongoDB, Express, React, Node.js), it features a credit-based system and seamless integration with AI image generation APIs.
 
 ## 🚀 Features
